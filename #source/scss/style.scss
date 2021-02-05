@@ -1,0 +1,492 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@font-face {
+	font-family: 'Conv_8143';
+	src: url('../fonts/8143.eot');
+	src: local('☺'), url('../fonts/8143.woff') format('woff'), url('../fonts/8143.ttf') format('truetype'), url('../fonts/8143.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+//Intro *************************************************
+
+.intro {
+	background:url("../img/intro/04.jpg") no-repeat center center fixed;
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	background-size: cover;
+	height: 1080px;
+	min-width: 1170px;
+	width: 100%;
+}
+
+.container {
+	width: 1103px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro__icon {
+	margin-bottom: 160px;
+}
+
+.img {
+	padding-top: 160px;
+}
+
+.intro__text {
+	color: #ffffff;
+	line-height: 40px;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	margin-bottom: 278px;
+	&:before {
+		content: "";
+		position: absolute;
+		width: 105px;
+		height: 2px;
+		background: #fff;
+		margin: 0 auto;
+		top: 130px;
+		left: 44%;
+	}
+}
+
+.text1 {
+	font-size: 34px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 5.43px;
+}
+
+.text2 {
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 4.15px;
+}
+
+.button {
+	width: 182px;
+	height: 47px;
+	background: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.67px;
+	border: 1px solid #fff;
+	position: relative;
+	padding: 18px 42px;
+	&:before {
+		content: "";
+		background-image: url("../img/intro/05.png");
+		position: absolute;
+		width: 17px;
+		height: 10px;
+		left: 45%;
+		top: 120px;
+	}
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
+}
+
+//About *************************************************
+
+.about{
+	height: 768px;
+	min-width: 1170px;
+}
+
+.about__link {
+	color: #3c3c3c;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin-left: 50px;
+	&:hover {
+		color: #ada074;
+	 	font-weight: 700;
+	}
+	&:first-child {
+		margin-left: 0px;
+	}
+}
+
+.about__menu {
+	margin-bottom: 150px;
+	padding: 23px;
+}
+
+.about__title {
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 8.95px;
+	margin-bottom: 73px;
+	position: relative;
+	&:before {
+		content: "";
+		width: 81px;
+		height: 1px;
+		background-color: #000000;
+		position: absolute;
+		left: 45%;
+		top: 71px;
+	}
+}
+
+.about__text {
+	color: #868585;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25.89px;
+	max-width: 688px;
+	margin: 0 auto;
+}
+
+.about__center {
+	margin-bottom: 74px;
+}
+
+.coloum__items {
+	display: inline-block;
+	max-width: 33%;
+	vertical-align: top;
+}
+
+.about__img {
+	padding: 30px;
+}
+
+.span {
+	display: inline-block;
+	border: 2px solid #f2f2f2;
+	border-radius: 50%;
+	margin-bottom: 41px;
+}
+
+.coloum__title {
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3.52px;
+}
+
+.coloum__text {
+	color: #868585;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	padding: 0 25px;
+}
+
+.about__coloum {
+	margin-bottom: 95px;
+}
+
+
+
+//Portfolio *************************************************
+
+.portfolio {
+	height: 1451px;
+	background: #f3f3f3;
+	padding-top: 107px;
+	min-width: 1170px;
+}
+
+.container2 {
+	width: 900px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.portfolio__title {
+	margin-bottom: 91px;
+	color: #000000;
+	font-family: "Lato", sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5.43px;
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		width: 81px;
+		height: 1px;
+		background-color: #000000;
+		left: 46%;
+		top: 70px;
+	}
+}
+
+.portfolio__menu {
+	margin-bottom: 136px;
+}
+
+.menu__items {
+	color: #3c3c3c;
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-left: 30px;
+	&:hover {
+		color: #ada074;
+		font-weight: 700;
+	}
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.portfolio__images {
+	text-align: left;
+	margin-bottom: 36px;
+}
+
+.portfolio__img {
+	width: 430px;
+	height: 280px;
+	overflow: hidden;
+	&:nth-child(odd) {
+		margin-right: 23px;
+		margin-bottom: 16px;
+	}
+}
+
+.portfolio-button {
+	color: #000000;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.67px;
+	border: 2px solid #000;
+	padding: 18px 40px;
+	&:hover {
+		background: #3B3F44;
+		color: #fff;
+	}
+}
+
+//Our partners *************************************************
+
+.ourpartners {
+	height: 390px;
+	background:url('../img/our partners/05.png') center center no-repeat;
+	text-align: center;
+	min-width: 1170px;
+	padding-top: 100px;
+	background-size: 100%;
+}
+
+.ourpartners__title {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 1.8px;
+	margin-bottom: 93px;
+}
+
+.ourpartners__img {
+	margin-left: 109px;
+	vertical-align: middle;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+//Contact *************************************************
+
+.contact {
+	height: 825px;
+	min-width: 1170px;
+	padding-top: 184px;
+}
+
+.contact__title {
+	color: #000000;
+	font-family: "Lato", sans-serif;
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5.39px;
+	position: relative;
+	margin-bottom: 166px;
+	&:before {
+		content: "";
+		width: 81px;
+		height: 1px;
+		background-color: #000000;
+		position: absolute;
+		top: 72px;
+		left: 46%;
+	}
+}
+
+.contact__form {
+	display: inline-block;
+	margin-right: 23px;
+}
+
+.contact__text {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.name {
+	color: #000000;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	margin-bottom: 19px;
+}
+
+.form__name {
+	width: 161px;
+	height: 35px;
+	background-color: #f8f7f7;
+	border-top: 1px solid #000;
+}
+
+.p {
+	display: inline-block;
+}
+
+.textarea {
+	width: 383px;
+	height: 118px;
+	background-color: #f8f7f7;
+	resize: none;
+	margin-bottom: 42px;
+	border-top: 1px solid #000;
+}
+
+.divname {
+	display: inline-block;
+	margin-bottom: 75px;
+	margin-right: 60px;
+	&:last-child {
+		margin-right: 80px;
+	}
+}
+
+.form {
+	text-align: left;
+}
+
+.contact__text {
+	color: #000000;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	max-width: 252px;
+	text-align: left;
+}
+
+.text__info {
+	margin-bottom: 40px;
+	padding-top: 7px;
+}
+
+.text__name {
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+.text__items {
+	vertical-align: middle;
+
+}
+
+.span2 {
+	display: inline-block;
+	width: 29px;
+	height: 29px;
+	border: 2px solid #1e1e1e;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	&:hover {
+		background: #BEC1CA;
+	}
+}
+
+.spanemail {
+	font-weight: 700;
+}
+
+.contact__footer_button {
+	background: #fff;
+	color: #000000;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	padding: 4px;
+	border-radius: 5px;
+	&:hover {
+		background: #3B3F44;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
+
+//Footer *************************************************
+
+.footer {
+	height: 274px;
+	min-width: 1170px;
+	background-color: #3c3c3c;
+	padding-top: 48px;
+}
+.footer__icon {
+	margin-bottom: 41px;
+}
+.footer__items{
+	margin-bottom: 34px;
+}
+
+.footer__link {
+	color: #a4a4a4;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 22px;
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.footer__date {
+	color: #6c6c6c;
+	font-family: "Conv_8143", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
